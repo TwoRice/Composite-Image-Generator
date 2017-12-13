@@ -1,0 +1,7 @@
+function [ features ] = plotPoint(image, features) 
+    sky = detect_sky(image);
+    hues(end + 1) = hue;
+    line = findStraightLines(image);    
+    lines(end + 1) = line;
+end
+
